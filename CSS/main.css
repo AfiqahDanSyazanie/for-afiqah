@@ -1,0 +1,46 @@
+#main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+body {
+  margin: 0;
+  font-family: "Caveat", cursive;
+  color: #EFEFEF;
+  background-color: #1A1D1E;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-right img {
+  width: 333.095px;
+  height: 444.127px;
+  transform: rotate(15deg);
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #00875E;
+}
+
+.image-left img {
+  width: 333.095px;
+  height: 444.127px;
+  transform: rotate(-15deg);
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #00875E;
+}
+
+#image-art {
+  gap: 20px;
+}
+#image-art #img1 {
+  width: 400px;
+  height: 400px;
+  margin-left: 1em;
+}
+#image-art #img2 {
+  width: 300px;
+  height: 400px;
+  margin-right: 1em;
+}/*# sourceMappingURL=main.css.map */
